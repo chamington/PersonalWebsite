@@ -1,0 +1,45 @@
+body{
+    margin:0;
+}
+div{
+    margin:0;
+    height:100%;
+    width:100%;
+}
+#name, #nameagain{
+    background: -webkit-linear-gradient(#ffff00, #00ffff);
+    background: -o-linear-gradient(#ffff00, #00ffff);
+    background: -moz-linear-gradient(#ffff00, #00ffff);
+    background: linear-gradient(#ffff00, #00ffff); /* Standard syntax */
+}
+#succeed{
+    background: -webkit-linear-gradient(#00ffff, #ff00ff);
+    background: -o-linear-gradient(#00ffff, #ff00ff);
+    background: -moz-linear-gradient(#00ffff, #00ffff);
+    background: linear-gradient(#00ffff, #ff00ff);
+}
+#math{
+    background: -webkit-linear-gradient(#ff00ff, #ff0000);
+    background: -o-linear-gradient(#ff00ff, #ff0000);
+    background: -moz-linear-gradient(#ff00ff, #ff0000);
+    background: linear-gradient(#ff00ff, #ff0000);
+}
+#excel{
+    background: -webkit-linear-gradient(#ff0000, #00ff00);
+    background: -o-linear-gradient(#ff0000, #00ff00);
+    background: -moz-linear-gradient(#ff0000, #00ff00);
+    background: linear-gradient(#ff0000, #00ff00);
+}
+#resume{
+    background: -webkit-linear-gradient(#00ff00, #ffff00);
+    background: -o-linear-gradient(#00ff00, #ffff00);
+    background: -moz-linear-gradient(#00ff00, #ffff00);
+    background: linear-gradient(#00ff00, #ffff00);
+}
+h1{
+    margin:0;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 40vh;
+}
