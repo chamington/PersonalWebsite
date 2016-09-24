@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <script src="jquery.js"></script>
+        <script>
+            $(window).scroll(function() {
+                if($("#nameagain").innerHeight()==$(window).innerHeight()-$(window).scrollTop()){
+                    window.scrollTo(0, 0);
+                }
+                else if($(window).scrollTop()==0){
+                    window.scrollTo(0,document.body.scrollHeight);
+                }
+            });
+        </script>
+        <style>
+            body{
+                margin:0;
+            }
+            div{
+                margin:0;
+                height:100%;
+                width:100%;
+            }
+            #name, #nameagain{
+                /*background-color: rgb(51,103,188);*/
+                background: -webkit-linear-gradient(#ffff00, #00ffff); /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(#ffff00, #00ffff); /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(#ffff00, #00ffff); /* For Firefox 3.6 to 15 */
+                background: linear-gradient(#ffff00, #00ffff); /* Standard syntax */
+            }
+            
+            #succeed{
+                /*background-color: rgb(102,141,179);*/
+                background: -webkit-linear-gradient(#00ffff, #ff00ff); /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(#00ffff, #ff00ff); /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(#00ffff, #00ffff); /* For Firefox 3.6 to 15 */
+                background: linear-gradient(#00ffff, #ff00ff); /* Standard syntax */
+            }
+            #math{
+                /*background-color: rgb(153,179,170);*/
+                background: -webkit-linear-gradient(#ff00ff, #ff0000); /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(#ff00ff, #ff0000); /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(#ff00ff, #ff0000); /* For Firefox 3.6 to 15 */
+                background: linear-gradient(#ff00ff, #ff0000); /* Standard syntax */
+                
+            }
+            #excel{
+                /*background-color: rgb(204,217,162);*/
+                background: -webkit-linear-gradient(#ff0000, #00ff00); /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(#ff0000, #00ff00); /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(#ff0000, #00ff00); /* For Firefox 3.6 to 15 */
+                background: linear-gradient(#ff0000, #00ff00); /* Standard syntax */
+            }
+            #resume{
+                /*background-color: rgb(255,255,153);*/
+                background: -webkit-linear-gradient(#00ff00, #ffff00); /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(#00ff00, #ffff00); /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(#00ff00, #ffff00); /* For Firefox 3.6 to 15 */
+                background: linear-gradient(#00ff00, #ffff00); /* Standard syntax */
+            }
+            h1{
+                margin:0;
+                font-family: sans-serif;
+                font-weight: 100;
+                text-align: center;
+                padding-top: 50vh;
+                transform: translateZ(0.9px)
+            }
+.parallax__layer--base {
+  -webkit-perspective: 1px;
+    perspective: 1px;
+}
+            
+        </style>
+    </head>
+    <body>
+        <div id="name"><h1 id="nameh1">Michael Golub</h1></div>
+        <div id="succeed"><h1>Voted least likely to succeed</h1></div>
+        <div id="math"><h1>I use desmos sometimes</h1></div>
+        <div id="excel"><h1 id="excelh1">I use excel sometimes</h1></div>
+        <div id="resume"><h1>So here is my r&eacute;sum&eacute;</h1></div>
+        <div id="nameagain"><h1 id="nameh1">Michael Golub</h1></div>
+    </body>
+</html>
