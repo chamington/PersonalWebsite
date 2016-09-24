@@ -2,14 +2,15 @@
     <head>
         <script src="jquery.js"></script>
         <script>
-            $(window).scroll(function() {
-                if($("#nameagain").innerHeight()==$(window).innerHeight()-$(window).scrollTop()){
+            window.onscroll = function (e) { 
+                if(pageYOffset==window.innerHeight*5){
                     window.scrollTo(0, 0);
                 }
-                else if($(window).scrollTop()==0){
+                else if(pageYOffset==0){
                     window.scrollTo(0,document.body.scrollHeight);
                 }
-            });
+            }
+        
         </script>
         <style>
             body{
