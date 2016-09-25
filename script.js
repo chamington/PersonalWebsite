@@ -5,5 +5,5 @@ window.onscroll = function (e) {
     else if(pageYOffset==0){
         window.scrollTo(0,document.body.scrollHeight);
     }
-    document.getElementById('image').style.marginLeft = (document.getElementById("name").clientHeight *2)-pageYOffset;
+    document.getElementById('image').style.marginLeft = Math.pow(1.02,((document.getElementById("name").clientHeight *2)-pageYOffset));
 }
