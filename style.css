@@ -12,17 +12,11 @@ div{
     background: -moz-linear-gradient(#ffff00, #00ffff);
     background: linear-gradient(#ffff00, #00ffff); /* Standard syntax */
 }
-#nameh1, #nameagainh1{
-    color:#7F007F;
-}
 #succeed{
     background: -webkit-linear-gradient(#00ffff, #ff00ff);
     background: -o-linear-gradient(#00ffff, #ff00ff);
     background: -moz-linear-gradient(#00ffff, #00ffff);
     background: linear-gradient(#00ffff, #ff00ff);
-}
-#succeedh1{
-    color:#7f7f00
 }
 #math{
     background: -webkit-linear-gradient(#ff00ff, #ff0000);
@@ -30,17 +24,11 @@ div{
     background: -moz-linear-gradient(#ff00ff, #ff0000);
     background: linear-gradient(#ff00ff, #ff0000);
 }
-#mathh1{
-    color:#00ff7f
-}
 #excel{
     background: -webkit-linear-gradient(#ff0000, #00ff00);
     background: -o-linear-gradient(#ff0000, #00ff00);
     background: -moz-linear-gradient(#ff0000, #00ff00);
     background: linear-gradient(#ff0000, #00ff00);
-}
-#excelh1{
-    color:#7f7fff
 }
 #resume{
     background: -webkit-linear-gradient(#00ff00, #ffff00);
@@ -48,13 +36,18 @@ div{
     background: -moz-linear-gradient(#00ff00, #ffff00);
     background: linear-gradient(#00ff00, #ffff00);
 }
-#resumeh1{
-    color:#7f00ff
-}
 h1{
     margin:0;
     font-family: sans-serif;
     font-weight: 100;
     text-align: center;
     padding-top: 40vh;
+    text-shadow: 0 0 50px #ffffff;
+}
+img{
+    height:50vh;
+    max-height:50vw;
+    width:50vh;
+    max-width:50vw;
+    padding-left:50vw;
 }
