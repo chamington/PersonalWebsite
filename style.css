@@ -17,31 +17,31 @@ div{
     height:100vh;
     width:100vw;
 }
-#name, #nameagain, #trump, #trumpagain{
+#name, #nameagain, #trump, #trumpagain, #MKA, #MKAagain{
     background: -webkit-linear-gradient(#ffff00, #00ffff);
     background: -o-linear-gradient(#ffff00, #00ffff);
     background: -moz-linear-gradient(#ffff00, #00ffff);
     background: linear-gradient(#ffff00, #00ffff); /* Standard syntax */
 }
-#succeed, #redorgreen{
+#succeed, #redorgreen, #GPA{
     background: -webkit-linear-gradient(#00ffff, #00ff00);
     background: -o-linear-gradient(#00ffff, #00ff00);
     background: -moz-linear-gradient(#00ffff, #00ff00);
     background: linear-gradient(#00ffff, #00ff00);
 }
-#math, #gamble{
+#math, #gamble, #MLC{
     background: -webkit-linear-gradient(#00ff00, #ffff00);
     background: -o-linear-gradient(#00ff00, #ffff00);
     background: -moz-linear-gradient(#00ff00, #ffff00);
     background: linear-gradient(#00ff00, #ffff00);
 }
-#excel, #champernowne{
+#excel, #champernowne, #TALK{
     background: -webkit-linear-gradient(#ffff00, #00ff00);
     background: -o-linear-gradient(#ffff00, #00ff00);
     background: -moz-linear-gradient(#ffff00, #00ff00);
     background: linear-gradient(#ffff00, #00ff00);
 }
-#resume, #shakespere{
+#resume, #shakespere, #NASA{
     background: -webkit-linear-gradient(#00ff00, #ffff00);
     background: -o-linear-gradient(#00ff00, #ffff00);
     background: -moz-linear-gradient(#00ff00, #ffff00);
@@ -59,7 +59,7 @@ h1{
    transform: translateZ(-1000px) scale(1);
    -webkit-transform: translateZ(-1000px) scale(1);
 }
-#seeMoreGit{
+#seeMoreGit, #seeMoreResume{
     padding-top:10vh;
 }
 img{
@@ -69,23 +69,29 @@ img{
     max-width:50vw;
     padding-left:50vw;
 }
-#links{
+#links, #resumelinks{
     margin-left:100vw;
 }
 #trump{
     margin-top:-100vh;
 }
+#MKA{
+    margin-top:-100vh;
+}
 .subset{
     max-width: 100vw;
 }
-#back{
+#gitback, #resumeback{
     position:fixed;
     margin-left:100px;
     top:0;
-    right:10px;;
+    right:20px;;
     opacity: 0;
     font-family: sans-serif;
 }
 .desc{
     /*padding-top: 40vh;*/
+}
+::-webkit-scrollbar { 
+    display: none; 
 }
