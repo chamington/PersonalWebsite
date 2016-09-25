@@ -1,4 +1,6 @@
+document.getElementById("links").style.display = 'none';
 document.getElementById("seeMoreGit").onclick = function(){
+    document.getElementById("links").style.display = 'block';
     var elem = document.getElementById("myAnimation");
     var pos = 0;
     var id = setInterval(frame, 10);
@@ -41,6 +43,7 @@ document.getElementById("back").onclick = function(){
             clearInterval(id);
             document.getElementById("back").style.display = 'none';
             document.getElementById("image").style.display = 'block';
+            document.getElementById("links").style.display = 'none';
         } else {
             pos--;
             document.getElementById("everything").style.marginLeft = -pos + 'vw';

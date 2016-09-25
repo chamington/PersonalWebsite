@@ -24,22 +24,22 @@ div{
     background: linear-gradient(#ffff00, #00ffff); /* Standard syntax */
 }
 #succeed, #redorgreen{
-    background: -webkit-linear-gradient(#00ffff, #ff00ff);
-    background: -o-linear-gradient(#00ffff, #ff00ff);
-    background: -moz-linear-gradient(#00ffff, #00ffff);
-    background: linear-gradient(#00ffff, #ff00ff);
+    background: -webkit-linear-gradient(#00ffff, #00ff00);
+    background: -o-linear-gradient(#00ffff, #00ff00);
+    background: -moz-linear-gradient(#00ffff, #00ff00);
+    background: linear-gradient(#00ffff, #00ff00);
 }
 #math, #gamble{
-    background: -webkit-linear-gradient(#ff00ff, #ff0000);
-    background: -o-linear-gradient(#ff00ff, #ff0000);
-    background: -moz-linear-gradient(#ff00ff, #ff0000);
-    background: linear-gradient(#ff00ff, #ff0000);
+    background: -webkit-linear-gradient(#00ff00, #ffff00);
+    background: -o-linear-gradient(#00ff00, #ffff00);
+    background: -moz-linear-gradient(#00ff00, #ffff00);
+    background: linear-gradient(#00ff00, #ffff00);
 }
 #excel, #champernowne{
-    background: -webkit-linear-gradient(#ff0000, #00ff00);
-    background: -o-linear-gradient(#ff0000, #00ff00);
-    background: -moz-linear-gradient(#ff0000, #00ff00);
-    background: linear-gradient(#ff0000, #00ff00);
+    background: -webkit-linear-gradient(#ffff00, #00ff00);
+    background: -o-linear-gradient(#ffff00, #00ff00);
+    background: -moz-linear-gradient(#ffff00, #00ff00);
+    background: linear-gradient(#ffff00, #00ff00);
 }
 #resume, #shakespere{
     background: -webkit-linear-gradient(#00ff00, #ffff00);
@@ -54,6 +54,10 @@ h1{
     text-align: center;
     padding-top: 40vh;
     text-shadow: 0 0 50px #ffffff;
+    perspective: 500px;
+    -webkit-perspective: 500px;
+   transform: translateZ(-1000px) scale(1);
+   -webkit-transform: translateZ(-1000px) scale(1);
 }
 #seeMoreGit{
     padding-top:10vh;
@@ -81,4 +85,7 @@ img{
     right:10px;;
     opacity: 0;
     font-family: sans-serif;
+}
+.desc{
+    /*padding-top: 40vh;*/
 }
