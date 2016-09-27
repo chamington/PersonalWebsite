@@ -54,30 +54,35 @@ div{
     background: -o-linear-gradient(#cefdad, #bfecdd);
     background: -moz-linear-gradient(#cefdad, #bfecdd);
     background: linear-gradient(#cefdad, #bfecdd);
+    background-color: #ffffff;
 }
 .ss2{
     background: -webkit-linear-gradient(#bfecdd, #baffae);
     background: -o-linear-gradient(#bfecdd, #baffae);
     background: -moz-linear-gradient(#bfecdd, #baffae);
     background: linear-gradient(#bfecdd, #baffae);
+    background-color: #ffffff;
 }
 .ss3{
     background: -webkit-linear-gradient(#baffae, #a0a0a0);
     background: -o-linear-gradient(#baffae, #a0a0a0);
     background: -moz-linear-gradient(#baffae, #a0a0a0);
     background: linear-gradient(#baffae, #a0a0a0);
+    background-color: #ffffff;
 }
 .ss4{
     background: -webkit-linear-gradient(#a0a0a0, #dcecec);
     background: -o-linear-gradient(#a0a0a0, #dcecec);
     background: -moz-linear-gradient(#a0a0a0, #dcecec);
     background: linear-gradient(#a0a0a0, #dcecec);
+    background-color: #ffffff;
 }
 .ss5{
     background: -webkit-linear-gradient(#dcecec, #cefdad);
     background: -o-linear-gradient(#dcecec, #cefdad);
     background: -moz-linear-gradient(#dcecec, #cefdad);
     background: linear-gradient(#dcecec, #cefdad);
+    background-color: #ffffff;
 }
 
 
