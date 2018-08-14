@@ -1,136 +1,62 @@
-@keyframes goto {
-    from {margin-left:0vw !important;}
-    to {margin-left:-100vw !important;}
-}
-@keyframes gofrom {
-    from {margin-left:-100vw !important;}
-    to {margin-left:0vw !important;}
-}
 body{
-    margin:0;
+margin:0;
 }
-html, body{
-    /*overflow-x: hidden;*/
+#dark{
+height:100%;
+width:100%;
+background-color:#000000;
+position:fixed;
+z-index:-1;
 }
-div{
-    margin:0;
-    height:100vh;
-    width:100vw;
+#dark *{
+color:#ffffff
 }
-/*
-#name, #nameagain, #trump, #trumpagain, #MKA, #MKAagain{
-    background: -webkit-linear-gradient(#cefdad, #bfecdd);
-    background: -o-linear-gradient(#cefdad, #bfecdd);
-    background: -moz-linear-gradient(#cefdad, #bfecdd);
-    background: linear-gradient(#cefdad, #bfecdd);
+@keyframes cover {
+    from {clip-path: inset(0px 0% 0px 0px);}
+    to {clip-path: inset(0px 100% 0px 0px);}
 }
-#succeed, #redorgreen, #GPA{
-    background: -webkit-linear-gradient(#bfecdd, #baffae);
-    background: -o-linear-gradient(#bfecdd, #baffae);
-    background: -moz-linear-gradient(#bfecdd, #baffae);
-    background: linear-gradient(#bfecdd, #baffae);
+.hiddenlink{
+color: transparent; 
+cursor:crosshair;
 }
-#math, #gamble, #MLC{
-    background: -webkit-linear-gradient(#baffae, #a0a0a0);
-    background: -o-linear-gradient(#baffae, #a0a0a0);
-    background: -moz-linear-gradient(#baffae, #a0a0a0);
-    background: linear-gradient(#baffae, #a0a0a0);
+#light{
+height:100%;
+width:100%;
+background-color:#ffffff;
+position:fixed;
+ clip-path: url(#myClip);
 }
-#excel, #champernowne, #TALK{
-    background: -webkit-linear-gradient(#a0a0a0, #dcecec);
-    background: -o-linear-gradient(#a0a0a0, #dcecec);
-    background: -moz-linear-gradient(#a0a0a0, #dcecec);
-    background: linear-gradient(#a0a0a0, #dcecec);
+.changer{
+height:5vw;
+width:5vw;
 }
-#resume, #shakespere, #NASA{
-    background: -webkit-linear-gradient(#dcecec, #cefdad);
-    background: -o-linear-gradient(#dcecec, #cefdad);
-    background: -moz-linear-gradient(#dcecec, #cefdad);
-    background: linear-gradient(#dcecec, #cefdad);
-}
-*/
-.ss1{
-    background: -webkit-linear-gradient(#cefdad, #bfecdd);
-    background: -o-linear-gradient(#cefdad, #bfecdd);
-    background: -moz-linear-gradient(#cefdad, #bfecdd);
-    background: linear-gradient(#cefdad, #bfecdd);
-    background-color: #ffffff;
-}
-.ss2{
-    background: -webkit-linear-gradient(#bfecdd, #baffae);
-    background: -o-linear-gradient(#bfecdd, #baffae);
-    background: -moz-linear-gradient(#bfecdd, #baffae);
-    background: linear-gradient(#bfecdd, #baffae);
-    background-color: #ffffff;
-}
-.ss3{
-    background: -webkit-linear-gradient(#baffae, #a0a0a0);
-    background: -o-linear-gradient(#baffae, #a0a0a0);
-    background: -moz-linear-gradient(#baffae, #a0a0a0);
-    background: linear-gradient(#baffae, #a0a0a0);
-    background-color: #ffffff;
-}
-.ss4{
-    background: -webkit-linear-gradient(#a0a0a0, #dcecec);
-    background: -o-linear-gradient(#a0a0a0, #dcecec);
-    background: -moz-linear-gradient(#a0a0a0, #dcecec);
-    background: linear-gradient(#a0a0a0, #dcecec);
-    background-color: #ffffff;
-}
-.ss5{
-    background: -webkit-linear-gradient(#dcecec, #cefdad);
-    background: -o-linear-gradient(#dcecec, #cefdad);
-    background: -moz-linear-gradient(#dcecec, #cefdad);
-    background: linear-gradient(#dcecec, #cefdad);
-    background-color: #ffffff;
-}
+a{
+position: relative;
+display: block;
+right:0;
+text-decoration:none;
+color:#000000;
+font-family: sans-serif;
+text-align:right;
+font-size:3vw;
+margin-bottom:10px;
 
+}
+#links{
+	position:fixed;
+top: 40%;
+     right: 10%;
+     transform: translate(0%,-50%);
+width:fit-content;
+
+}
 
 h1{
-    margin:0;
-    font-family: sans-serif;
-    font-weight: 100;
-    text-align: center;
-    padding-top: 40vh;
-    /*text-shadow: 0 0 50px #ffffff;*/
-    perspective: 500px;
-    -webkit-perspective: 500px;
-   transform: translateZ(-1000px) scale(1);
-   -webkit-transform: translateZ(-1000px) scale(1);
-}
-#seeMoreGit, #seeMoreResume{
-    padding-top:10vh;
-}
-img{
-    height:50vh;
-    max-height:50vw;
-    width:50vh;
-    max-width:50vw;
-    padding-left:50vw;
-}
-#links, #resumelinks{
-    margin-left:100vw;
-}
-#trump{
-    margin-top:-100vh;
-}
-#MKA{
-    margin-top:-100vh;
-}
-.subset{
-    max-width: 100vw;
-}
-#gitback, #resumeback{
-    position:fixed;
-    margin-left:100px;
-    top:0;
-    right:20px;;
-    opacity: 0;
-    font-family: sans-serif;
-}
-.desc{
-    /*padding-top: 40vh;*/
-}
-::-webkit-scrollbar { 
-    display: none; 
+margin:0;
+position: fixed;
+     top: 40%;
+     left: 10%;
+     transform: translate(0%,-50%);
+font-family: sans-serif;
+font-size:5vw;
 }
